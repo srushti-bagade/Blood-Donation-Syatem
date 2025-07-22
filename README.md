@@ -85,8 +85,7 @@ C:\xampp\htdocs\\
 
 ## 🙋‍♀️ Author
 
-**Srushti Bagade**  
-[GitHub Profile](https://github.com/srushti-bagade/)
+[**Srushti Bagade** ](https://github.com/srushti-bagade/)
 
 ---
 
@@ -98,13 +97,4 @@ This is an educational project. It does not store or process real user data. Int
 
 ```
 
----
-
-### ✅ Final Checklist Before Uploading:
-
-* [ ] Add screenshots to `images/` folder
-* [ ] Replace `YOUR_GITHUB_USERNAME` in the link
-* [ ] Check if file paths match your project
-* [ ] Copy this into your `README.md` file inside the root folder
-
-Would you like me to now guide you **step-by-step to upload this project to GitHub**?
+-
