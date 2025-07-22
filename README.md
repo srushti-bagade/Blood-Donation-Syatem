@@ -92,9 +92,3 @@ C:\xampp\htdocs\\
 ## 📄 License
 This is an educational project. It does not store or process real user data. Intended for academic use only.
 
-
----
-
-```
-
--
