@@ -1,92 +1,110 @@
-## 📄 `README.md` for Blood Donation System
 
-```markdown
-# 🩸 Blood Donation System - PHP + MySQL (XAMPP Project)
+# 🩸 Blood Donation Management System
 The "Blood Donation System" is a web-based DBMS mini-project developed to streamline the process of blood donation and request management. This project is designed to maintain accurate records of blood donors, recipients, donations, and blood requests, thereby enhancing transparency and efficiency. The system uses MySQL as the backend database, and PHP for backend scripting, along with HTML/CSS for the frontend. The project includes five main modules: Donors, Donations, Recipients, Requests, and Admins. The system enables administrators to manage donor and recipient records, monitor donations and requests, and ensure data integrity through relational database constraints. It ultimately aims to provide a centralized, secure, and user-friendly platform to bridge the gap between donors and recipients.
 
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3
+- **Backend**: PHP 7+
+- **Database**: MySQL
+- **Platform**: XAMPP (Apache + MySQL)
 
 ---
 
-## 🗂️ Folder Structure
+## 📁 Project Structure
 
 ```
 
-BLOOD\_DONATION\_SYSTEM/
+blood\_donation\_system/
 │
-├── css/                       # CSS styles for all pages
+├── css/
+│   └── styles.css
+│
 ├── db/
-│   └── blood\_donation\_system.sql   # MySQL DB file
+│   └── blood\_donation\_system.sql
+│
+├── images/
+│   ├── background.jpg
+│   └── welcome-image.png
+│
 ├── pages/
 │   ├── add\_donor.html
-│   ├── view\_donors.php
 │   ├── add\_donation.html
+│   ├── view\_donors.php
 │   ├── view\_donations.php
+│   ├── add\_recipient.html
+│   ├── view\_recipients.php
 │   ├── add\_request.html
-│   ├── view\_requests.php....... 
-├── background.jpg
-├── welcome-image.png
-└── index.html                 # Welcome / Home page
+│   ├── view\_requests.php
+│   └── admin\_login.php
+│
+├── index.html
+├── README.md
+└── LICENSE
 
 ```
 
 ---
 
-## 🛠️ Technologies Used
-
-- 🌐 HTML5, CSS3
-- ⚙️ PHP (Server-side scripting)
-- 🗃️ MySQL (Database)
-- 🧪 XAMPP (Apache + MySQL Server)
-
 ---
 
-## 📦 Modules Required
+## 🚀 How to Run
 
-> No external modules required!  
-This project runs entirely on **XAMPP** using PHP and MySQL.
-
----
-
-## 🧪 How to Run the Project (Step-by-Step)
-
-### Step 1: Install XAMPP
-- [Download XAMPP](https://www.apachefriends.org/index.html) and install it.
-
-### Step 2: Place the Project in XAMPP
-- Copy the `BLOOD_DONATION_SYSTEM` folder to:
+1. 🧰 Install **XAMPP** (Apache + MySQL) if not already installed.
+2. 📁 Copy the `blood_donation_system` folder into:
 ```
 
 C:\xampp\htdocs\\
 
 ```
+3. 🛢️ Import the database:
+- Open [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+- Create a new database named `blood_donation_system`
+- Import `db/blood_donation_system.sql`
 
-### Step 3: Start XAMPP Services
-- Open XAMPP Control Panel
-- Start Apache and MySQL
+4. ▶️ Start **Apache** and **MySQL** from the XAMPP control panel.
 
-### Step 4: Import Database
-- Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
-- Click on Import
-- Choose `blood_donation_system.sql` file from the `db` folder
-- Click Go
-
-### Step 5: Access the Project
-Open your browser and visit:
+5. 🌐 Open your browser and go to:
 ```
 
-[http://localhost/BLOOD\_DONATION\_SYSTEM/index.html](http://localhost/BLOOD_DONATION_SYSTEM/index.html)
+[http://localhost/blood\_donation\_system/index.html](http://localhost/blood_donation_system/index.html)
 
 ```
-
-
 
 ---
 
-## 🙋🏻‍♀️ Developed By
+## 📦 Modules to Install (Optional)
+
+> For basic PHP & MySQL, no external modules are needed. Just ensure:
+- PHP is enabled via XAMPP
+- MySQL is running
+
+---
+
+## 🙋‍♀️ Author
 
 **Srushti Bagade**  
-Mini DBMS Project – Blood Donation System  
-Built using PHP, MySQL, HTML, CSS.
+[GitHub Profile](https://github.com/srushti-bagade/)
 
 ---
 
+## 📄 License
+This is an educational project. It does not store or process real user data. Intended for academic use only.
+
+
+---
+
+```
+
+---
+
+### ✅ Final Checklist Before Uploading:
+
+* [ ] Add screenshots to `images/` folder
+* [ ] Replace `YOUR_GITHUB_USERNAME` in the link
+* [ ] Check if file paths match your project
+* [ ] Copy this into your `README.md` file inside the root folder
+
+Would you like me to now guide you **step-by-step to upload this project to GitHub**?
