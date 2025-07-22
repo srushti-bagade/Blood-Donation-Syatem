@@ -35,11 +35,8 @@ blood\_donation\_system/
 │   ├── view\_donors.php
 │   ├── view\_donations.php
 │   ├── add\_recipient.html
-│   ├── view\_recipients.php
-│   ├── add\_request.html
-│   ├── view\_requests.php
-│   └── admin\_login.php
-│
+│   ├── view\_recipients.php....
+│   └── 
 ├── index.html
 ├── README.md
 └── LICENSE
