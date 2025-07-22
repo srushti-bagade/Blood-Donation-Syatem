@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Request Blood</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Request Blood</h2>
+        <form action="save_request.php" method="POST">
+            <label for="recipient_id">Recipient ID:</label>
+            <input type="number" name="recipient_id" required>
+
+            <label for="request_date">Request Date:</label>
+            <input type="date" name="request_date" required>
+
+            <label for="hospital">Hospital Name:</label>
+            <input type="text" name="hospital" required>
+
+            <label for="status">Request Status:</label>
+            <select name="status" required>
+                <option value="Pending">Pending</option>
+                <option value="Fulfilled">Fulfilled</option>
+                <option value="Rejected">Rejected</option>
+            </select>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>

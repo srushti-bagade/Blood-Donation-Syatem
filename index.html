@@ -1,0 +1,98 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        display: flex;
+        height: 100vh;
+    }
+
+    .left-side {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f6ff;
+    }
+
+    .right-side {
+        flex: 1;
+        background: url('background.jpg') no-repeat center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 600px;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 40px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h1 {
+        color: #d80027;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 12px 0;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #d80027;
+        padding: 12px 20px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+        width: 50%;
+    }
+
+    ul li a:hover {
+        background-color: #b3001b;
+    }
+
+    @media (max-width: 768px) {
+        body {
+            flex-direction: column;
+        }
+
+        .right-side {
+            height: 200px;
+        }
+    }
+</style>
+
+</head>
+<body>
+    <div class="left-side">
+        <div class="container">
+            <h1>Welcome to Blood Donation System</h1>
+            <ul>
+                <li><a href="pages/add_donor.html"> Add Donor</a></li>
+                <li><a href="pages/view_donors.php"> View Donors</a></li>
+                <li><a href="pages/add_donation.html"> Add Donation</a></li>
+                <li><a href="pages/view_donations.php"> View Donations</a></li>
+                <li><a href="pages/add_recipient.html"> Add Recipient</a></li>
+                <li><a href="pages/view_recipients.php"> View Recipients</a></li>
+                <li><a href="pages/request_blood.html"> Request Blood</a></li>
+                <li><a href="pages/view_requests.php"> View Requests</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-side"></div>
+</body> 
