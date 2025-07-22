@@ -2,20 +2,8 @@
 
 ```markdown
 # 🩸 Blood Donation System - PHP + MySQL (XAMPP Project)
+The "Blood Donation System" is a web-based DBMS mini-project developed to streamline the process of blood donation and request management. This project is designed to maintain accurate records of blood donors, recipients, donations, and blood requests, thereby enhancing transparency and efficiency. The system uses MySQL as the backend database, and PHP for backend scripting, along with HTML/CSS for the frontend. The project includes five main modules: Donors, Donations, Recipients, Requests, and Admins. The system enables administrators to manage donor and recipient records, monitor donations and requests, and ensure data integrity through relational database constraints. It ultimately aims to provide a centralized, secure, and user-friendly platform to bridge the gap between donors and recipients.
 
-The **Blood Donation System** is a mini DBMS project built using PHP, MySQL, and XAMPP. It enables blood donors and recipients to register, track donation and request records, and allows admins to manage the inventory and users efficiently.
-
----
-
-## 🌟 Features
-
-- 👨‍🦰 Add and View Donors
-- 🩸 Add and Track Blood Donations
-- 🏥 Add and Track Blood Requests
-- 🧑‍💻 Admin Panel to manage system
-- 📊 Inventory Monitoring (Blood Units)
-- 📨 Contact and Feedback Section
-- 🎨 Attractive UI with Light Theme
 
 ---
 
