@@ -74,13 +74,13 @@ C:\xampp\htdocs\\
 
 ### Step 3: Start XAMPP Services
 - Open XAMPP Control Panel
-- Start **Apache** and **MySQL**
+- Start Apache and MySQL
 
 ### Step 4: Import Database
 - Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
-- Click on **Import**
+- Click on Import
 - Choose `blood_donation_system.sql` file from the `db` folder
-- Click **Go**
+- Click Go
 
 ### Step 5: Access the Project
 Open your browser and visit:
@@ -90,19 +90,15 @@ Open your browser and visit:
 
 ```
 
----
 
-## 📸 Screenshots
-
-> 📷 Add screenshots of key pages like `Add Donor`, `Inventory`, `Admin Login`, etc. here.
 
 ---
 
-## 🙋‍♀️ Developed By
+## 🙋🏻‍♀️ Developed By
 
 **Srushti Bagade**  
 Mini DBMS Project – Blood Donation System  
-Built using PHP, MySQL, HTML, CSS with ❤️
+Built using PHP, MySQL, HTML, CSS.
 
 ---
 
